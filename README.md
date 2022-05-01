@@ -1,22 +1,22 @@
 # Otus-2019: Web-python course.
 
-```
-Курс "Web-python" от "Otus" это не только "Web" и далеко не только "Python".
+```text
+Курс "Web-python" от "Otus" - это не только "Web" и далеко не только "Python".
 ```
 
 ## Домашние задания
 
 Материал авторский.
 
-```
-Замечание: в части документации не прогружаются изображения, по неустановленной причине у меня битые ссылки на изображениям. Физически они находятся в папках README.files в каждом репозитории. Исправлю верстку позже.
+```text
+Замечание: в части документации не прогружаются изображения. Физически они находятся в папках README.files в каждом репозитории. Исправлю верстку позже.
 ```
 
-* [Анализ кода Python на Python ч.1.](https://github.com/BorisPlus/otus_webpython_001) и [ч.2](https://github.com/BorisPlus/otus_webpython_002) - решение различных задач стат анализа кода. Основной посыл был в необходимости рефакторинга предоставленного педагогом исходного кода, где был смешан и дублировался функционал по сбору данных от составлению отчета. Но главным обстоятельсвом, как оказалось потом ("ничего непонятно в коде"), было - "Сомнения есть? Тимлид ответит тебе."
-* [Проект FLASK](https://github.com/BorisPlus/otus_webpython_004) - пример "простого" приложения Kiosk на FLASK с задействованием связи "many-to-many". Моя фишка - наполнение тестовых данных с сайта МВидео (отдельная документация).
-* [Проект ORM](https://github.com/BorisPlus/otus_webpython_002) - пример-проект  `QLite - ORM for SQLite, as lite ORM for lite SQL` объектно-реляционной связки объектов классов (сущностей) Python3 и таблиц (сущностей) БД SQLite (реализация без метаклассов). Много текста. Проверяющему понравилось.
-* [WSGI](https://github.com/BorisPlus/otus_webpython_003) - в рамках изучения стандарта взаимодействия между Python-программой, выполняющейся на стороне сервера, и веб-сервером, реализовал "свой" фреймворк (dummy_wsgi_framework)[https://github.com/BorisPlus/dummy_wsgi_framework] для Веб-приложений и внес его в PyPi/
-* [Проект Django.](https://github.com/BorisPlus/otus_webpython_006) - переработан проект FLASK. Основная фишка - свой widget [admin_img_widget](https://github.com/BorisPlus/otus_webpython_006/blob/master/README.files/images/screenshots/admin_img_widget.png). Также запоолняется тестовыми данными с сайта МВидео. Про возможность создания комманд Django-Management я тогда не ведал.
+* [Анализ кода Python на Python ч.1](https://github.com/BorisPlus/otus_webpython_001) и [ч.2](https://github.com/BorisPlus/otus_webpython_002) - решение различных задач статического анализа кода. Основное напрвление [ч.1.](https://github.com/BorisPlus/otus_webpython_001) - рефакторинг предоставленного педагогом исходного кода, где был смешан дублированый функционал. Но главным обстоятельсвом, как оказалось потом ("ой, ничего непонятно в коде"), было - "Сомнения есть? Тимлид ответит тебе."
+* [Проект на Flask](https://github.com/BorisPlus/otus_webpython_004) - пример "простого" приложения на Flask с задействованием связи "many-to-many". Моя фишка - наполнение тестовых данных сведениями с сайта МВидео (приложена отдельная документация).
+* [Проект ORM](https://github.com/BorisPlus/otus_webpython_002) - пример-проект объектно-реляционной связки объектов классов (сущностей) Python3 и таблиц (сущностей) БД SQLite (реализация без метаклассов). Много рассуждений и текста. `QLite - ORM for SQLite, as lite ORM for lite SQL` - проверяющему понравилось.
+* [WSGI](https://github.com/BorisPlus/otus_webpython_003) - в рамках изучения стандарта взаимодействия между Python-программой, выполняющейся на стороне сервера, и самим веб-сервером, реализовал "свой" фреймворк ["dummy_wsgi_framework"](https://github.com/BorisPlus/dummy_wsgi_framework) для произвольных веб-приложений и внес его в реест [PyPi](https://pypi.org/project/dummy_wsgi_framework/). Можно использовать параметры в запросах к страницам. Генерация HTTP заголовков позволила достаточно просто реализовать Basic HTTP Auth. В последвии добавил возможность задействования шаблонизатора Jinja2.
+* [Проект на Django](https://github.com/BorisPlus/otus_webpython_006) - переработан проект на Flask. Задействуется Django Class Based Views, фишка - свой Django Widget [admin_img_widget](https://github.com/BorisPlus/otus_webpython_006/blob/master/README.files/images/screenshots/admin_img_widget.png) и "свои" декораторы для полей в админ-панели. Привожу их в пример . Также заполняется тестовыми данными с сайта МВидео. Про возможность создания комманд Django-Management я тогда не ведал.
 * [ORM Django.](https://github.com/BorisPlus/otus_webpython_016) - как можно (и НУЖНО) повлиять на генерируемые Django запросы к базам данных. 
 * [Немного Frontend.](https://github.com/BorisPlus/otus_webpython_013) - CSS, JS. Шрифты (ох уж эта буква "Ё" на устройствах Мак)
 * [Немного Frontend непосредственно в Django.](https://github.com/BorisPlus/otus_webpython_007_008) - CSS для разных устройств (десктоп \ мобильные), , взаимодействие по REST API. 
