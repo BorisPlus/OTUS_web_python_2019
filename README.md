@@ -29,7 +29,7 @@
 * [Проект Django с Сelery](https://github.com/BorisPlus/otus_webpython_020_021_celery) - пример запуска в Django асинхронной триггер-задачи (по отработке `view`) с использованием Сelery на стороне сервера (это не AJAX на стороне пользователя). 
 * [Проект React](https://github.com/BorisPlus/otus_webpython_023) - основы основ NPM и React
 * [Пример взаимодействия пользовательского React с серверным Django](https://github.com/BorisPlus/otus_webpython_025) - форма с чатом.
-* Промежуточный вариант курсовой работы: [Django ⇄ (Redux & React \ Vue)](https://github.com/BorisPlus/otus_webpython_027) - портал для музыкальных струнных щипковых инструментов.
+* Промежуточный вариант курсовой работы: [Django ⇄ (Redux & React \ Vue)](https://github.com/BorisPlus/otus_webpython_027).
 
 ## Курсовой проект
 
