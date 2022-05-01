@@ -21,7 +21,7 @@
 * [Проект на Django](https://github.com/BorisPlus/otus_webpython_006) - переработан проект на Flask. Задействуется Django Class Based Views, фишка - свой Django Widget [admin_img_widget](https://github.com/BorisPlus/otus_webpython_006/blob/master/README.files/images/screenshots/admin_img_widget.png) и "свои" декораторы для полей в админ-панели. Обосновано и расписано все. Также заполняется тестовыми данными с сайта МВидео. П.С. О возможности создания Django-Management комманд я тогда не ведал.
 * [Django ORM](https://github.com/BorisPlus/otus_webpython_016) - материал о том, как можно (и НУЖНО) влиять на генерируемые Django SQL-запросы к базам данных с целью снижения нагрузок. 
 * [Основы динамичного Frontend](https://github.com/BorisPlus/otus_webpython_013) - CSS, JS, шрифты (ох уж эта буква "Ё" на устройствах Мак).
-* [Frontend непосредственно в Django](https://github.com/BorisPlus/otus_webpython_007_008) - CSS для разных устройств (десктоп \ мобильные), взаимодействие по REST API, боковая панель мониторинга и отладки, Class Based Configs.
+* [Frontend непосредственно в Django](https://github.com/BorisPlus/otus_webpython_007_008) - CSS для разных устройств (десктоп \ мобильные), взаимодействие по REST API, боковая панель мониторинга и отладки, Class Based Configs. Проект портала обучения на струнных щипковых музыкальных инструментах.
 * Пример того, как организовать взамодействие [Frontend](https://github.com/BorisPlus/otus_webpython_019_frontend) и [Backend](https://github.com/BorisPlus/otus_webpython_019_backend). 
 * В рамках блока домашних работ по Frontend был сделан проект для подключения модераторами на своих сайтах формы информирования пользователем о наличии опечаток - [BugReport](https://github.com/BorisPlus/BugReport).
 * [Webpack](https://github.com/BorisPlus/otus_webpython_018) - как собрать весь-весь JS в один проект. 
@@ -29,7 +29,7 @@
 * [Проект Django с Сelery](https://github.com/BorisPlus/otus_webpython_020_021_celery) - пример запуска в Django асинхронной триггер-задачи (по отработке `view`) с использованием Сelery на стороне сервера (это не AJAX на стороне пользователя). 
 * [Проект React](https://github.com/BorisPlus/otus_webpython_023) - основы основ NPM и React
 * [Пример взаимодействия пользовательского React с серверным Django](https://github.com/BorisPlus/otus_webpython_025) - форма с чатом.
-* Промежуточный вариант курсовой работы: [Django ⇄ (Redux & React \ Vue)](https://github.com/BorisPlus/otus_webpython_027).
+* Промежуточный вариант курсовой работы: [Django ⇄ (Redux & React \ Vue)](https://github.com/BorisPlus/otus_webpython_027) и пример упаковки в Докер.
 
 ## Курсовой проект
 
